@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <title>Checkout – aasAcry</title>
+</head>
+
+<body data-p="checkout">
+    <div id="nav"></div>
+    <div class="w sec">
+        <div class="card step" style="margin-bottom:16px">
+            <div class="d"><b>✓</b>Cart Review</div>
+            <div class="a"><b>2</b>Shipping & Info</div>
+            <div><b>3</b>Secure Payment</div>
+        </div>
+        <div class="side">
+            <div style="display:grid;gap:16px">
+                <div class="card" style="background:#dcebdc">You've unlocked <b>Free Express Shipping!</b></div>
+                <div class="card">
+                    <h3>Your Bag Review</h3>
+                    <div class="row sp" style="margin-top:12px">
+                        <div class="row">
+                            <div class="ph sq" style="--c:#2f3a33;width:70px"></div>
+                            <div><b>Nordic Ribbed Carafe & Tumbler</b><br><span class="m">Warm Terracotta</span></div>
+                        </div><b>₹1,499</b>
+                    </div>
+                    <div class="row sp" style="margin-top:12px">
+                        <div class="row">
+                            <div class="ph sq" style="--c:#232a26;width:70px"></div>
+                            <div><b>Modular Bamboo Jar Carousel</b><br><span class="m">Natural Milled Bamboo</span>
+                            </div>
+                        </div><b>₹1,850</b>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 style="margin-bottom:12px">Delivery Address & Speed</h3>
+                    <div class="f">
+                        <div><label>Email</label><input value="aasib.mansuri@example.com"></div>
+                        <div><label>Mobile</label><input value="+91 98765 43210"></div>
+                        <div class="full"><label>Full Name</label><input value="Aasib Mansuri"></div>
+                        <div><label>Flat / Building</label><input value="Flat 402, Shanti Vihar"></div>
+                        <div><label>Street</label><input value="14th Main Road"></div>
+                        <div><label>Pincode</label><input value="560034"></div>
+                        <div><label>City</label><input value="Bangalore"></div>
+                    </div>
+                    <div class="f" style="margin-top:12px"><label class="opt"><input type="radio" name="s"
+                                checked>Standard Ground <b class="t">FREE</b><br><span class="m">3–4 business
+                                days</span></label><label class="opt"><input type="radio" name="s">Express Next-Day
+                            <b>+₹99</b><br><span class="m">Before 7 PM tomorrow</span></label></div>
+                </div>
+                <div class="card">
+                    <h3 style="margin-bottom:12px">Payment Method</h3><label class="opt"><input type="radio" name="p"
+                            checked>Instant UPI & QR <span class="tag ok">Extra ₹50 Off</span></label><label
+                        class="opt"><input type="radio" name="p">Credit / Debit Card</label><label class="opt"><input
+                            type="radio" name="p">Net Banking</label><label class="opt"><input type="radio"
+                            name="p">Cash on Delivery <span class="m">+₹49</span></label>
+                </div>
+            </div>
+            <aside class="card" style="position:sticky;top:90px">
+                <h3>Order Summary</h3>
+                <p class="row sp"><span>Items Total</span><b>₹3,349.00</b></p>
+                <p class="row sp"><span>Catalog Discount</span><span>−₹650.00</span></p>
+                <p class="row sp"><span>Coupon (AASACRY10)</span><span>−₹269.90</span></p>
+                <p class="row sp"><span>Shipping</span><span>FREE</span></p>
+                <hr style="border:0;border-top:1px solid var(--ln);margin:12px 0">
+                <div class="row sp"><b>TOTAL</b><span class="price t">₹2,429.10</span></div><a class="btn"
+                    style="display:block;margin-top:14px" href="order-confirmation.html">Place Order & Pay ₹2,429.10
+                    →</a>
+            </aside>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

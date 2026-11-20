@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <title>Dashboard – aasAcry Merchant</title>
+</head>
+
+<body class="adm" data-p="admin-dashboard">
+    <div class="ad">
+        <div id="nav"></div>
+        <div>
+            <div id="top"></div>
+            <main class="main">
+                <div class="row sp">
+                    <div><span class="m">Home › Merchant Hub</span>
+                        <h1 style="font-size:clamp(24px,4vw,36px)">Store Overview & Performance</h1>
+                    </div><a class="btn" href="#">+ New Campaign</a>
+                </div>
+                <div class="g4">
+                    <div class="card"><span class="m">TOTAL SALES · GMV</span>
+                        <div class="kpi">₹12,48,500</div>
+                        <div class="chart"><i style="height:30%"></i><i style="height:45%"></i><i
+                                style="height:40%"></i><i style="height:70%"></i><i style="height:100%"></i></div>
+                    </div>
+                    <div class="card"><span class="m">TOTAL ORDERS</span>
+                        <div class="kpi">1,284</div><span class="tag wn">14 pending</span>
+                    </div>
+                    <div class="card"><span class="m">CUSTOMER REACH</span>
+                        <div class="kpi">3,842</div><span class="m">68% repeat rate</span>
+                    </div>
+                    <div class="card"><span class="m">ACTIVE CATALOG</span>
+                        <div class="kpi">248</div><span class="tag wn">12 low stock</span>
+                    </div>
+                </div>
+                <div class="side">
+                    <div class="card">
+                        <h3>Recent Orders</h3>
+                        <div class="tw">
+                            <table>
+                                <tr>
+                                    <th>ORDER</th>
+                                    <th>CUSTOMER</th>
+                                    <th>ITEM</th>
+                                    <th>AMOUNT</th>
+                                    <th>PAYMENT</th>
+                                </tr>
+                                <tr>
+                                    <td class="t">#ORD-9842</td>
+                                    <td>Aasib Mansuri</td>
+                                    <td>Nordic Ribbed</td>
+                                    <td>₹1,499</td>
+                                    <td><span class="tag ok">UPI Paid</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="t">#ORD-9841</td>
+                                    <td>Rohit Joshi</td>
+                                    <td>Bamboo Spice</td>
+                                    <td>₹1,850</td>
+                                    <td><span class="tag ok">CC Paid</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="t">#ORD-9839</td>
+                                    <td>Vikram Joshi</td>
+                                    <td>Pantry Jars</td>
+                                    <td>₹2,299</td>
+                                    <td><span class="tag yl">COD</span></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div style="display:grid;gap:16px">
+                        <div class="card">
+                            <h3 style="margin-bottom:10px">Critical Low-Stock</h3>
+                            <div class="row sp"><span>Nordic Carafe <span class="m">4 left</span></span><button
+                                    class="btn">Restock</button></div>
+                            <div class="row sp" style="margin-top:8px"><span>Pantry Jars <span class="m">6
+                                        left</span></span><button class="btn">Restock</button></div>
+                        </div>
+                        <div class="card">
+                            <h3>Activity Feed</h3>
+                            <p class="m">★ 5 review from Ananya N. · 4m ago</p>
+                            <p class="m">Order #ORD-9842 paid via UPI · 12m ago</p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

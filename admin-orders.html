@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <title>Orders & Fulfillment – aasAcry Merchant</title>
+</head>
+
+<body class="adm" data-p="admin-orders">
+    <div class="ad">
+        <div id="nav"></div>
+        <div>
+            <div id="top"></div>
+            <main class="main">
+                <div class="row sp">
+                    <div>
+                        <h1 style="font-size:clamp(24px,4vw,36px)">Orders & Fulfillment Hub</h1>
+                        <p class="m">Manage processing, dispatches and customer status.</p>
+                    </div>
+                    <div class="row"><button class="btn l">Export CSV</button><button class="btn l">Print
+                            Labels</button></div>
+                </div>
+                <div class="g4">
+                    <div class="card"><span class="m">TODAY'S ORDERS</span>
+                        <div class="kpi">38</div>
+                    </div>
+                    <div class="card"><span class="m">AWAITING PACKING</span>
+                        <div class="kpi t">14</div>
+                    </div>
+                    <div class="card"><span class="m">DISPATCHED TODAY</span>
+                        <div class="kpi">24</div>
+                    </div>
+                    <div class="card"><span class="m">AVG DISPATCH SLA</span>
+                        <div class="kpi">18.2 hrs</div>
+                    </div>
+                </div>
+                <div class="tabs"><span>All 1,284</span><span>Pending 8</span><span class="on">Processing
+                        14</span><span>In Transit 42</span><span>Delivered 1,198</span></div>
+                <div class="side" style="grid-template-columns:minmax(0,1fr) 380px">
+                    <div class="card">
+                        <div class="tw">
+                            <table>
+                                <tr>
+                                    <th>ORDER</th>
+                                    <th>CUSTOMER</th>
+                                    <th>AMOUNT</th>
+                                    <th>STATUS</th>
+                                </tr>
+                                <tr style="background:#fdf1ea">
+                                    <td class="t"><b>#ORD-9842</b></td>
+                                    <td>Aasib Mansuri<br><span class="m">Bangalore</span></td>
+                                    <td>₹2,148</td>
+                                    <td><span class="tag yl">Processing</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="t"><b>#ORD-9841</b></td>
+                                    <td>Rohit Verma<br><span class="m">Mumbai</span></td>
+                                    <td>₹1,850</td>
+                                    <td><span class="tag">Dispatched</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="t"><b>#ORD-9840</b></td>
+                                    <td>Ananya D.<br><span class="m">New Delhi</span></td>
+                                    <td>₹2,429</td>
+                                    <td><span class="tag ok">Delivered</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="t"><b>#ORD-9839</b></td>
+                                    <td>Vikram Joshi<br><span class="m">Pune</span></td>
+                                    <td>₹2,299</td>
+                                    <td><span class="tag yl">Processing</span></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="card" style="display:grid;gap:10px">
+                        <div class="row sp">
+                            <h3>Order #ORD-9842</h3><button class="btn">Update Status</button>
+                        </div><b class="m">FULFILLMENT JOURNEY</b>
+                        <p>✓ Order Placed & Confirmed</p>
+                        <p>✓ Payment Verified via UPI</p>
+                        <p class="t"><b>● Pick & Pack in Progress</b></p>
+                        <p class="m">○ Dispatched via Delhivery</p>
+                        <p class="m">○ Delivered to Doorstep</p>
+                        <div class="row sp"><span>Nordic Ribbed Carafe</span><b>₹1,499</b></div>
+                        <div class="row sp"><span>Travertine Coasters</span><b>₹649</b></div>
+                        <div class="row sp"><b>Total Paid</b><b class="t">₹1,933.20</b></div>
+                        <div class="row"><button class="btn l">Cancel</button><button class="btn" style="flex:1">Mark as
+                                Packed</button></div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

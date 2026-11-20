@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <title>Product Catalog – aasAcry Merchant</title>
+</head>
+
+<body class="adm" data-p="admin-products">
+    <div class="ad">
+        <div id="nav"></div>
+        <div>
+            <div id="top"></div>
+            <main class="main">
+                <div class="row sp">
+                    <div>
+                        <h1 style="font-size:clamp(24px,4vw,36px)">Product Catalog <span class="tag wn">248</span></h1>
+                        <p class="m">Manage inventory, variants and live pricing.</p>
+                    </div>
+                    <div class="row"><button class="btn l">Export CSV</button><a class="btn" href="#">+ Add New
+                            Product</a></div>
+                </div>
+                <div class="tabs"><span class="on">All 248</span><span>Active 214</span><span>Low Stock
+                        14</span><span>Drafts 20</span></div>
+                <div class="side" style="grid-template-columns:minmax(0,1fr) 380px">
+                    <div class="card"><input placeholder="Filter by title…" style="margin-bottom:10px">
+                        <div class="tw">
+                            <table>
+                                <tr>
+                                    <th></th>
+                                    <th>PRODUCT</th>
+                                    <th>PRICE</th>
+                                    <th>STOCK</th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="ph sq" style="--c:#c4825a;width:40px"></div>
+                                    </td>
+                                    <td><b>Nordic Ribbed Carafe</b></td>
+                                    <td>₹1,499</td>
+                                    <td>4</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="ph sq" style="--c:#8a7a5a;width:40px"></div>
+                                    </td>
+                                    <td><b>AeroStack Pantry Jars</b></td>
+                                    <td>₹1,850</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="ph sq" style="--c:#dcd8d2;width:40px"></div>
+                                    </td>
+                                    <td><b>Fluted Vanity Tray</b></td>
+                                    <td>₹899</td>
+                                    <td>8</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="ph sq" style="--c:#6b4a35;width:40px"></div>
+                                    </td>
+                                    <td><b>Walnut Towel Stand</b></td>
+                                    <td>₹1,199</td>
+                                    <td>22</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="card"><span class="tag ok">LIVE ITEM</span> <span class="tag wn">Unsaved</span>
+                        <h3 style="margin:8px 0">Edit: Nordic Ceramic Carafe</h3><label class="m">Product
+                            Title</label><input value="Nordic Ribbed Carafe & Tumbler Set">
+                        <p class="m" style="margin:12px 0 6px">Artisan Media (4 of 8)</p>
+                        <div class="g4" style="grid-template-columns:repeat(4,1fr)">
+                            <div class="ph sq" style="--c:#c4825a"></div>
+                            <div class="ph sq" style="--c:#d9a07a"></div>
+                            <div class="ph sq" style="--c:#e8d9c4"></div>
+                            <div class="ph sq" style="--c:#eceae8"></div>
+                        </div>
+                        <div class="f" style="margin-top:12px">
+                            <div><label class="m">Selling Price</label><input value="₹1,499"></div>
+                            <div><label class="m">MRP</label><input value="₹2,199"></div>
+                        </div>
+                        <div class="row sp" style="margin-top:14px"><button class="btn l">Discard</button><button
+                                class="btn">Save Changes</button></div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
